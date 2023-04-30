@@ -1,0 +1,77 @@
+body{
+    background-color: #202433;
+  
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    font-family: Century Gothic;
+  }
+  
+  #description{
+    color: #D4EFD3;
+    font-size: 0.8em;
+    font-style: italic;
+    margin-top: -20px;
+  }
+  
+  h1, p{
+    text-align: center;
+    margin: 1em auto;
+    color: white;
+  }
+  
+  form{
+    width: 80vw;
+    margin: 2em auto 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    padding-bottom: 2em;
+  }
+  
+  label, input, select, textarea{
+    display: block;
+    margin: 0.5em auto 1.5em auto;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  label {
+    color: #261b63;
+  }
+  
+  input, select, textarea {
+    background-color: ghostwhite;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    font-family: Century Gothic;
+  }
+  
+  .inline{
+    display: inline-block;
+    width: unset;
+    margin: 0 1em 0.5em 0;
+    vertical-align: middle;
+  }
+  
+  fieldset {
+    background: linear-gradient(rgba(244, 245, 201, 0.7), rgba(102, 135, 242, 0.7));
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+  }
+  
+  #dropdown {
+    width: 100%;
+  }
+  
+  input[type="submit"]{
+    background-color:#9ef0af;
+    width: 70%;
+    margin: 1.3em auto;
+    font-weight: bold;
+    color: black;
+  }
+  
+  #karma{
+    margin-bottom: -0.5em;
+  }

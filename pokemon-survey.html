@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Survey Form</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">Pokemon Personality Test</h1>
+  <p id="description">Partake in this enchanting examination to reveal the <br>identity of the mystical creature that
+    embodies your unique traits!</p>
+  <form id="survey-form">
+
+    <fieldset>
+      <label for="name" id="name-label">Enter name: <input type="text" id="name" placeholder="Enter your name"
+          required></label>
+      <label for="email" id="email-label">Enter email: <input type="email" id="email" placeholder="Enter your email"
+          required></label>
+      <label for="number" id="number-label">Enter age: <input type="number" id="number" min="13" max="113"
+          placeholder="Enter your age"></label>
+
+      <label for="starter">Choose your starter Pokémon
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">Turtwig</option>
+          <option value="2">Chimchar</option>
+          <option value="3">Piplup</option>
+        </select>
+      </label>
+      <label for="type">Select your preferred Pokémon Type
+        <label for="normal" id="karma"><input type="radio" id="normal" name="pokemon-type" value="nom" class="inline" />Normal</label>
+
+        <label for="fire" id="karma"><input type="radio" id="fire" name="pokemon-type" value="pyro" class="inline" />Fire</label>
+
+        <label for="water" id="karma"><input type="radio" id="water" name="pokemon-type" value="hydro" class="inline" />Water</label>
+
+        <label for="grass" id="karma"><input type="radio" id="grass" name="pokemon-type" value="dendro" class="inline" />Grass</label>
+      </label>
+
+      <label for="nature">Select your nature
+        <label for="docile" id="karma"><input id="docile" type="checkbox" value="docile" class="inline">Docile</label>
+
+        <label for="adamant" id="karma"><input id="adamant" type="checkbox" value="adamant" class="inline">Adamant</label>
+
+        <label for="modest" id="karma"><input id="modest" type="checkbox" value="modest" class="inline">Modest</label>
+      </label>
+
+      <label for="desc">Tell me about yourself!
+        <textarea id="desc" name="desc" rows="3" cols="30"
+          placeholder="I like glitter and sparkly dresses..."></textarea>
+      </label>
+
+    </fieldset>
+
+    <input type="submit" id="submit" value="Submit" />
+  </form>
+</body>
+
+</html>
